@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+*::selection {
+    color: white;
+    background-color: #000;
+}
+html , body {
+    width: 100%;
+    height: 100%;
+}
+#main {
+    width: 100%;
+}
+#home {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+#nav {
+    width: 100%;
+    padding: 10px 50px;
+    display: flex;
+    background-color: rgb(77, 109, 196);
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+#nav img {
+    width: 120px;
+    border-radius: 50%;
+}
+#nav a {
+    margin-right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+#nav i {
+    font-size: 25px;
+
+}
+#home .homearea {
+    /* background-color: red; */
+    width: 100%;
+    padding: 15vw 15vw;
+}
+.headings {
+    display: flex;
+    gap: 2rem;
+
+}
+.headings h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 7vw;
+    font-weight: 900;
+    letter-spacing: -3px;
+    line-height: 1;
+    -webkit-text-stroke: 1px #000;
+    color: transparent;
+}
+.homearea h4 {
+    font-size: 20px;
+}
+.hometext{
+    padding: 3vw 15vw;
+}
+.hometext p {
+    font-size: 1.5vw;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+}
+.hometext p::selection {
+    color: white;
+    background-color: #000;
+}
+.featured {
+    /* background-color: red; */
+    padding: 13vw 15vw 7vw 15vw;
+
+}
+.featured h1 {
+    
+    font-size: 4vw;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1;
+
+}
+.fheading>h1:nth-child(2){
+    -webkit-text-stroke: 1px #807878;
+    color: transparent;
+}
+.featuredimages {
+    height: 100vh;
+    /* background-color: pink; */
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+.fleft {
+    width: 45%;
+    overflow: auto;
+    /* background-color: yellow; */
+}
+.fleftelm {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.fleftelm h1 {
+    font-size: 2.5vw;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 2vh 0;
+}
+.fleft h3 {
+    font: 1.3vw;
+    font-weight: 400;
+}
+.fleftelm h5 {
+    opacity: .5;
+}
+.fright {
+    width: 45%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+.fright .img {
+    width: 88%;
+    height: 80%;
+    background-color: red;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.btn button {
+    padding: 1.3vw 2.5vw;
+    border-radius: 100px;
+    /* border: 2px solid #872525; */
+    background-color: white;
+    font-size: 1.5vw;
+    font-weight: 500;
+    letter-spacing: -1px;
+    border: 1px solid #e6e6e6;
+}
+.paragraph{
+    width: 100%;
+    /* background-color: red; */
+    padding: 5vw 15vw;
+}
+.paragraph h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.8vw;
+    font-weight: 400;
+    width: 60%;
+    line-height: 1;
+}
+.paragraph p {
+    font-size: 1.5vw;
+    width: 60%;
+    margin-top: 3vw;
+    letter-spacing: -.5px;
+}
+.resources {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 7vw;
+    /* background-color: aqua; */
+}
+.resource {
+    width: 30%;
+    height: 100px;
+    /* background-color: red; */
+
+
+}
+.resource .img {
+    background-color: yellow;
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 5px;
+
+}
+.resource .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.resource .tag {
+    padding:  10px 22px;
+    background-color: #dadada;
+    margin: 20px 0 ;
+    width: fit-content;
+    border-radius: 100px;
+
+}
+.resource h3 {
+    font-size: 1.4vw;
+    font-weight: 400;
+    line-height: -.5px;
+}
+.bottomarea {
+    width: 100%;
+    padding: 3vw 7vw;
+    margin: 5vw 0px ;
+    /* background-color: red; */
+
+}
+.quote {
+    width: 30%;
+    margin: 60px 0;
+}
+.qoute h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.8vw;
+    font-weight: 400;
+    width: 60%;
+    line-height: 1;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 6vw 0;
+    /* background-color: yellow; */
+}
+.card {
+    width: 23%;
+    
+}
+.card h2 {
+    font-size: 2vw;
+    font-weight: 400;
+    margin: 10px 0;
+    
+}
+.card p {
+    font-size: 1vw;
+    letter-spacing: -.2px;
+    justify-content: center;
+    padding: 0 2px;
+
+}
+.card .img {
+    background-color: rgb(19, 210, 70);
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 5px;
+}
